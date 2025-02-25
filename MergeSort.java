@@ -10,7 +10,7 @@ public class MergeSort {
         int j = mid;
         int[] temp = new int[size];
 
-        // Merging two sorted halves
+        // Merging two sorted halves 
         while (i < mid && j < end) {
             if (a[i] < a[j]) {
                 temp[k++] = a[i++];
