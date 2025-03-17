@@ -6,7 +6,7 @@ public class Selectionsort {
         int minIndex;
         int minValue;
         System.out.println("Before sorting: ");
-        for(int i=0;i<size;i++)
+        for(int i=0;i<size;i++) 
         {
             System.out.print(numbers[i]+" ");
         }
